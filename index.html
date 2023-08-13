@@ -75,6 +75,7 @@ $(function(){
         try{
            terms[random] = terms[random].replace(breakSpace, "<br />");
            terms[random] = terms[random].replace(tabSpace, "&nbsp;&nbsp;&nbsp;&nbsp;");
+            //it's based on purely random math func
         }
         catch(err){}
         $("body").prepend(terms[random] + "<br />");
